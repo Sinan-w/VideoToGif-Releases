@@ -2,7 +2,7 @@
 
 一款将本地视频片段转换为 GIF 动图的轻量级 Android 工具。
 
-## 功能
+## 主要功能
 
 - 本地视频导入
 - 视频片段截取
@@ -18,8 +18,6 @@ Android 8.0 及以上。
 ## 下载
 
 [前往 GitHub Releases](https://github.com/Sinan-w/VideoToGif-Releases/releases)。
-
-VideoToGif 1.1 当前仍为发行草稿，安装包尚未公开发布。
 
 ## 安装说明
 
