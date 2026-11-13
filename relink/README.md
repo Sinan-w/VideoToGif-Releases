@@ -1,6 +1,6 @@
 # LGPL 库重新链接
 
-适用于 VideoToGif 1.1-r03。提供的 JAR 只包含应用 Java 对象代码及原包生成的资源 ID 对象，不包含 Java 源码。原 APK 提供界面、资源和 manifest；重新链接不需要作者签名密钥。
+适用于 VideoToGif 1.0.0。提供的 JAR 只包含应用 Java 对象代码及原包生成的资源 ID 对象，不包含 Java 源码。原 APK 提供界面、资源和 manifest；重新链接不需要作者签名密钥。
 
 ## 权利
 
@@ -8,7 +8,7 @@
 
 ## 输入
 
-- 原版 `VideoToGif_1.1_Release_v03.apk`（校验值见发行说明）。
+- 原版 `VideoToGif_1.0.0.apk`（校验值见发行说明）。
 - 保持 Java/JNI 接口兼容的 FFmpegKit full AAR，包含原版全部 ABI 的库；可使用修改后的版本。
 - Smart Exception common/java 0.2.1 JAR：从 [官方源码](https://github.com/tanersener/smart-exception/tree/v0.2.1) 构建，或使用其同版本发布件。
 - Python 3、JDK 17、Android SDK API 36 的 android.jar、Build Tools 35.0.0（D8、zipalign、apksigner）。

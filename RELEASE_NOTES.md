@@ -1,4 +1,4 @@
-# VideoToGif 1.1
+# VideoToGif 1.0.0
 
 将本地视频片段转换为 GIF 动图的 Android 工具。
 
@@ -14,11 +14,10 @@ Android 8.0 及以上。下载 APK 后在手机上打开安装；如系统提示
 
 ## 版本与校验
 
-- versionName：1.1
-- versionCode：3
-- Tag：v1.1-r03
-- 安装包：VideoToGif_1.1_Release_v03.apk
-- SHA256：`9576A431C11FE0A5D7F8EEA42D047CE7DDA1751F581D356DAF39A61E5EC17F73`
+- 版本：1.0.0
+- Tag：v1.0.0
+- 安装包：VideoToGif_1.0.0.apk
+- SHA256：`31E1F5EB6D9B8ABE625058FAB17AE37AA14F118DC7F98E720ABD0FEF2ACEB2E6`
 
 ## 第三方许可
 

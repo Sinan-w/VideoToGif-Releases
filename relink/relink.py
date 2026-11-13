@@ -10,18 +10,18 @@ import subprocess
 import tempfile
 import zipfile
 
-BASE_SHA256 = '9576a431c11fe0a5d7f8eea42d047ce7dda1751f581d356daf39a61e5ec17f73'
+BASE_SHA256 = '31e1f5eb6d9b8abe625058fab17ae37aa14f118dc7f98e720abd0fef2aceb2e6'
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     for key in ('apk', 'aar', 'smart_common', 'smart_java', 'android_jar', 'build_tools', 'jdk', 'output'):
         parser.add_argument('--' + key.replace('_', '-'), required=True, type=Path)
-    parser.add_argument('--objects', type=Path, default=Path(__file__).with_name('VideoToGif_1.1-r03-application-objects.jar'))
+    parser.add_argument('--objects', type=Path, default=Path(__file__).with_name('VideoToGif_1.0.0-application-objects.jar'))
     args = parser.parse_args()
     if args.output.exists():
         parser.error('Output already exists; select a new filename.')
     if hashlib.sha256(args.apk.read_bytes()).hexdigest() != BASE_SHA256:
-        parser.error('This object package is for the original 1.1-r03 APK only.')
+        parser.error('This object package is for the original 1.0.0 APK only.')
     java = args.jdk / 'bin' / ('java.exe' if os.name == 'nt' else 'java')
     align = args.build_tools / ('zipalign.exe' if os.name == 'nt' else 'zipalign')
     root = Path(__file__).resolve().parent.parent
