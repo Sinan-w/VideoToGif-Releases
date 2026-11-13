@@ -1,20 +1,40 @@
 # VideoToGif
 
-将本地视频转换为 GIF 的 Android 工具。
+一款将本地视频片段转换为 GIF 动图的轻量级 Android 工具。
 
 ## 功能
 
-- 从手机导入视频。
-- 截取视频片段并裁剪画面。
-- 调整帧率和播放速度。
-- 支持正放、倒放以及 GIF 生成和保存。
+- 本地视频导入
+- 视频片段截取
+- 画面裁剪
+- 帧率和播放速度调整
+- 正放与倒放
+- GIF 生成与保存
 
-## 下载和安装
+## 支持平台
 
-支持 Android 8.0 及以上。安装包通过 [GitHub Releases](https://github.com/Sinan-w/VideoToGif-Releases/releases) 提供，首个安装包尚未公开上传。
+Android 8.0 及以上。
 
-下载后打开 APK，按系统提示允许当前安装来源并安装。更新需保留相同签名，安装完成后可关闭该来源的安装权限。
+## 下载
 
-问题请通过 [GitHub Issues](https://github.com/Sinan-w/VideoToGif-Releases/issues) 反馈。
+[前往 GitHub Releases](https://github.com/Sinan-w/VideoToGif-Releases/releases)。
 
-本软件的自有源码不公开。本仓库用于发行说明和第三方许可资料，各第三方权利归各自作者。见 [第三方说明](THIRD_PARTY_NOTICES.md)。
+VideoToGif 1.1 当前仍为发行草稿，安装包尚未公开发布。
+
+## 安装说明
+
+下载 APK，在 Android 手机上打开安装。如系统提示，需要允许对应来源安装应用。
+
+## 使用说明
+
+视频在本地处理，无需上传到服务器。
+
+## 免费使用
+
+软件免费提供，允许个人及商业使用。作者自有源码不公开，第三方组件遵循各自许可。
+
+## 问题反馈
+
+请使用本仓库的 [GitHub Issues](https://github.com/Sinan-w/VideoToGif-Releases/issues)。
+
+第三方许可资料见 [第三方组件与许可](THIRD_PARTY_NOTICES.md)。
